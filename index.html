@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduBoard - Student Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="dashboard">
+
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <h2>EduBoard</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> Subjects</a></li>
+                <li><a href="#"><i class="fas fa-calendar-check"></i> Attendance</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+
+            <!-- Header -->
+            <header class="header">
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="profile">
+                    <i class="fas fa-bell"></i>
+                    <img src="https://via.placeholder.com/40" alt="Student Avatar" />
+                    <span>John Doe</span>
+                </div>
+            </header>
+
+            <!-- Overview Cards -->
+            <section class="cards">
+                <div class="card">
+                    <h3>GPA</h3>
+                    <p>3.8</p>
+                </div>
+                <div class="card">
+                    <h3>Attendance</h3>
+                    <p>92%</p>
+                </div>
+                <div class="card">
+                    <h3>Assignments Due</h3>
+                    <p>4</p>
+                </div>
+                <div class="card">
+                    <h3>Total Credits</h3>
+                    <p>21</p>
+                </div>
+            </section>
+
+            <!-- Progress Table -->
+            <section class="progress-section">
+                <h2>Subject Progress</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Progress</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mathematics</td>
+                            <td>
+                                <div class="progress-bar"><span style="width: 80%"></span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Science</td>
+                            <td>
+                                <div class="progress-bar"><span style="width: 65%"></span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>History</td>
+                            <td>
+                                <div class="progress-bar"><span style="width: 90%"></span></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Upcoming Deadlines -->
+            <section class="deadlines">
+                <h2>Upcoming Deadlines</h2>
+                <ul>
+                    <li>
+                        <span class="badge">Sep 3</span>
+                        <p>Math Assignment 2 due</p>
+                    </li>
+                    <li>
+                        <span class="badge">Sep 5</span>
+                        <p>Science Lab Report</p>
+                    </li>
+                    <li>
+                        <span class="badge">Sep 8</span>
+                        <p>History Presentation</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Student Profile Info -->
+            <section class="profile-info">
+                <h2>Student Profile</h2>
+                <div class="profile-card">
+                    <img src="https://via.placeholder.com/80" alt="Student Photo" />
+                    <div class="info">
+                        <p><strong>Name:</strong> John Doe</p>
+                        <p><strong>Roll No:</strong> 202101234</p>
+                        <p><strong>Email:</strong> john.doe@example.com</p>
+                        <p><strong>College:</strong> ABC University</p>
+                        <p><strong>Department:</strong> Computer Science</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
